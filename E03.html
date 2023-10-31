@@ -7,11 +7,12 @@
     */
 
     //Entrada
-
+    const custo = Number(prompt("informe  o custo de fábrica do computador"))
 
     //Processamento
-
-
+    const imposto = custo * 0.30
+    const lojas = custo * 0.45
+    const final = imposto + lojas
     //Saída
-
+    document.write(`custo final é R$${final.toFixed(2)}`)
 </script>
